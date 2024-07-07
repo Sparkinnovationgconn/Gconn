@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Tuition Assistance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tuition Assistance</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="financial.html">Financial Services</a></li>
+                <li><a href="transportation.html">Transportation Services</a></li>
+                <li><a href="healthcare.html">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="service-section">
+        <h2>Apply for Tuition Assistance</h2>
+        <p>Apply for tuition assistance to support your education. Fill out the form below to get started.</p>
+
+        <form id="tuition-assistance-form" class="service-form">
+            <label for="student-name">Student Name:</label>
+            <input type="text" id="student-name" name="student-name" placeholder="Enter your name" required>
+
+            <label for="school-name">School Name:</label>
+            <input type="text" id="school-name" name="school-name" placeholder="Enter your school name" required>
+
+            <label for="tuition-amount">Tuition Amount:</label>
+            <input type="number" id="tuition-amount" name="tuition-amount" placeholder="Enter tuition amount" required>
+
+            <label for="assistance-comments">Additional Comments:</label>
+            <textarea id="assistance-comments" name="assistance-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

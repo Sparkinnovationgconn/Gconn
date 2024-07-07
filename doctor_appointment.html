@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Doctor Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Doctor Appointment</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="financial.html">Financial Services</a></li>
+                <li><a href="education.html">Education Services</a></li>
+                <li><a href="transportation.html">Transportation Services</a></li>
+                <li><a href="healthcare.html">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="service-section">
+        <h2>Schedule a Doctor Appointment</h2>
+        <p>Book a doctor appointment with GConn's healthcare services. Fill out the form below to schedule your appointment.</p>
+
+        <form id="doctor-appointment-form" class="service-form">
+            <label for="appointment-date">Preferred Date and Time:</label>
+            <input type="datetime-local" id="appointment-date" name="appointment-date" required>
+
+            <label for="doctor-name">Doctor's Name:</label>
+            <input type="text" id="doctor-name" name="doctor-name" placeholder="Enter doctor's name" required>
+
+            <label for="appointment-reason">Reason for Appointment:</label>
+            <textarea id="appointment-reason" name="appointment-reason" rows="4" placeholder="Describe the reason for your appointment" required></textarea>
+
+            <label for="appointment-comments">Additional Comments:</label>
+            <textarea id="appointment-comments" name="appointment-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

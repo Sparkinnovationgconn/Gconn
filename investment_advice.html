@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Investment Advice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Investment Advice</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="financial.html">Financial Services</a></li>
+                <li><a href="education.html">Education Services</a></li>
+                <li><a href="transportation.html">Transportation Services</a></li>
+                <li><a href="healthcare.html">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="service-section">
+        <h2>Get Professional Investment Advice</h2>
+        <p>Receive professional investment advice tailored to your financial goals. Fill out the form below to schedule a consultation.</p>
+
+        <form id="investment-advice-form" class="service-form">
+            <label for="investment-goals">Investment Goals:</label>
+            <input type="text" id="investment-goals" name="investment-goals" placeholder="Enter your investment goals" required>
+
+            <label for="risk-tolerance">Risk Tolerance:</label>
+            <select id="risk-tolerance" name="risk-tolerance">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <label for="current-investments">Current Investments:</label>
+            <textarea id="current-investments" name="current-investments" rows="4" placeholder="List your current investments"></textarea>
+
+            <label for="advice-comments">Additional Comments:</label>
+            <textarea id="advice-comments" name="advice-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Get Advice</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Your Service Provider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to GConn</h1>
+        <nav>
+            <ul>
+                <li><a href="#education">Education Services</a></li>
+                <li><a href="#financial">Financial Services</a></li>
+                <li><a href="#transportation">Transportation Services</a></li>
+                <li><a href="#healthcare">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="education" class="service-section">
+        <h2>Education Services</h2>
+        <button onclick="showServiceForm('education')">Request Education Service</button>
+        <form id="education-form" class="service-form" style="display: none;">
+            <!-- Form fields for education service -->
+            <label for="education-service">Select Education Service:</label>
+            <select id="education-service" name="education-service">
+                <option value="tutoring">Tutoring</option>
+                <option value="courses">Online Courses</option>
+                <option value="school-enrollment">School Enrollment Assistance</option>
+            </select>
+            <!-- Add more fields as needed -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="financial" class="service-section">
+        <h2>Financial Services</h2>
+        <button onclick="showServiceForm('financial')">Request Financial Service</button>
+        <form id="financial-form" class="service-form" style="display: none;">
+            <!-- Form fields for financial service -->
+            <label for="financial-service">Select Financial Service:</label>
+            <select id="financial-service" name="financial-service">
+                <option value="bank-loan">Bank Loan Application</option>
+                <option value="investment-advice">Investment Advice</option>
+                <option value="tax-consultation">Tax Consultation</option>
+            </select>
+            <!-- Add more fields as needed -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="transportation" class="service-section">
+        <h2>Transportation Services</h2>
+        <button onclick="showServiceForm('transportation')">Request Transportation Service</button>
+        <form id="transportation-form" class="service-form" style="display: none;">
+            <!-- Form fields for transportation service -->
+            <label for="transportation-service">Select Transportation Service:</label>
+            <select id="transportation-service" name="transportation-service">
+                <option value="taxi-booking">Taxi Booking</option>
+                <option value="vehicle-rental">Vehicle Rental</option>
+                <option value="ride-sharing">Ride Sharing</option>
+            </select>
+            <!-- Add more fields as needed -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="healthcare" class="service-section">
+        <h2>Healthcare Services</h2>
+        <button onclick="showServiceForm('healthcare')">Request Healthcare Service</button>
+        <form id="healthcare-form" class="service-form" style="display: none;">
+            <!-- Form fields for healthcare service -->
+            <label for="healthcare-service">Select Healthcare Service:</label>
+            <select id="healthcare-service" name="healthcare-service">
+                <option value="doctor-appointment">Doctor Appointment</option>
+                <option value="medical-emergency">Medical Emergency Assistance</option>
+                <option value="health-insurance">Health Insurance Consultation</option>
+            </select>
+            <!-- Add more fields as needed -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

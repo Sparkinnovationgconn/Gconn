@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Bank Loan Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bank Loan Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="financial.html">Financial Services</a></li>
+                <li><a href="education.html">Education Services</a></li>
+                <li><a href="transportation.html">Transportation Services</a></li>
+                <li><a href="healthcare.html">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="service-section">
+        <h2>Apply for a Bank Loan</h2>
+        <p>Apply for a bank loan with ease through GConn. Fill out the form below to get started on your loan application.</p>
+
+        <form id="loan-application-form" class="service-form">
+            <label for="loan-amount">Loan Amount:</label>
+            <input type="number" id="loan-amount" name="loan-amount" placeholder="Enter loan amount" required>
+
+            <label for="loan-purpose">Purpose of Loan:</label>
+            <input type="text" id="loan-purpose" name="loan-purpose" placeholder="Enter purpose of loan" required>
+
+            <label for="income-details">Annual Income:</label>
+            <input type="number" id="income-details" name="income-details" placeholder="Enter your annual income" required>
+
+            <label for="employment-status">Employment Status:</label>
+            <select id="employment-status" name="employment-status">
+                <option value="employed">Employed</option>
+                <option value="self-employed">Self-Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="student">Student</option>
+            </select>
+
+            <label for="loan-comments">Additional Comments:</label>
+            <textarea id="loan-comments" name="loan-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

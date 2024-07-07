@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Prescription Refill</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Prescription Refill</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="financial.html">Financial Services</a></li>
+                <li><a href="education.html">Education Services</a></li>
+                <li><a href="transportation.html">Transportation Services</a></li>
+                <li><a href="healthcare.html">Healthcare Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="service-section">
+        <h2>Refill Your Prescription</h2>
+        <p>Use GConn's prescription refill service to refill your medication easily. Fill out the form below to request a refill.</p>
+
+        <form id="prescription-refill-form" class="service-form">
+            <label for="medication-name">Medication Name:</label>
+            <input type="text" id="medication-name" name="medication-name" placeholder="Enter medication name" required>
+
+            <label for="dosage">Dosage:</label>
+            <input type="text" id="dosage" name="dosage" placeholder="Enter dosage" required>
+
+            <label for="refill-quantity">Refill Quantity:</label>
+            <input type="number" id="refill-quantity" name="refill-quantity" placeholder="Enter refill quantity" required>
+
+            <label for="refill-comments">Additional Comments:</label>
+            <textarea id="refill-comments" name="refill-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Request Refill</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
