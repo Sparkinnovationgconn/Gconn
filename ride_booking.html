@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GConn - Ride Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ride Booking Detail</h1>
+    </header>
+
+    <section class="service-section">
+        <h2>Book a Ride</h2>
+        <p>Book a ride with GConn's reliable ride booking service. Fill out the form below to schedule your ride.</p>
+
+        <form id="ride-booking-form" class="service-form">
+            <label for="pickup-location">Pickup Location:</label>
+            <input type="text" id="pickup-location" name="pickup-location" placeholder="Enter pickup location" required>
+
+            <label for="dropoff-location">Dropoff Location:</label>
+            <input type="text" id="dropoff-location" name="dropoff-location" placeholder="Enter dropoff location" required>
+
+            <label for="ride-date">Preferred Date and Time:</label>
+            <input type="datetime-local" id="ride-date" name="ride-date" required>
+
+            <label for="ride-comments">Additional Comments:</label>
+            <textarea id="ride-comments" name="ride-comments" rows="4" placeholder="Any specific requests or details"></textarea>
+
+            <button type="submit">Book Ride</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GConn - Your Service Provider</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b7dfe9;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 10vh;
+    min-width: 100vh;
+  h2 {
+      text-align: center;
+      color:black;
+      font-size: 20px;
+      border-bottom: black;
+  }
+  }
+
+  /* General styles */
+
+
+header {
+    background: linear-gradient(90deg, #14c3cf, #f8fafa);
+    color: whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    min-height: 1vh;
+    min-width: 100vh;
+  }
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 5px;
+
+}
+
+h1 {
+  color:rgb(8, 8, 8);
+  font-weight: bold;
+  font-size: 20px;
+}
+.profile-card {
+  width: 2000px;
+  height: 130px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(32, 14, 197, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+.profile-card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.solid-border {
+  border: 5px solid;
+  border-color: #e7e9eb;
+}
+
+
+nav ul li a {
+    color: rgb(21, 21, 24);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+  
